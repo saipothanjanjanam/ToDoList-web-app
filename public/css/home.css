@@ -1,0 +1,39 @@
+button {
+  border-color: transparent;
+  border-width: 0;
+  border-radius: 5px;
+  background-color: #0080FF;
+
+
+  color: #FFF;
+
+  font-size: 16px;
+  font-weight: 600;
+
+  min-height: 50px;
+  margin: 1rem;
+
+  width: 150px;
+}
+
+button:hover {
+  background-color:   #0066CC;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+p {
+  font-size: 1rem;
+  padding-bottom: 1.5rem;
+  opacity: .75;
+}
+
+.btn-group {
+  text-align: center;
+}
+
+.date h1{
+  font-size: 1.25rem;
+}

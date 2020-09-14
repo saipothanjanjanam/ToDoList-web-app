@@ -1,0 +1,25 @@
+<%- include('header'); -%>
+
+  <link rel="stylesheet" href="css/home.css">
+
+  <div class="box heading">
+    <h1>A Simple To-Do List App!</h1>
+    <p>Keep track of goals and finish them!</p>
+  </div>
+
+  <div class="box date heading">
+    <h1> <%= kindOfDay[1] %>, <%= kindOfDay[2] %>
+         <br>
+         It's <%= kindOfDay[0] %>
+    </h1>
+  </div>
+
+  <div class="btn-group">
+    <form class="" action="/" method="POST">
+      <button type="submit" name="btn" value="Work">Work List 💻</button>
+      <button type="submit" name="btn" value="Casual">Casual List 🏠</button>
+      <button type="submit" name="btn" value="Clear">Clear 🗑️</button>
+    </form>
+  </div>
+
+<%- include('footer'); -%>

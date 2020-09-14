@@ -1,0 +1,30 @@
+html {
+  background-color: #E4E9FD;
+  background-image: -webkit-linear-gradient(75deg, #A683E3 50%, #E4E9FD 50%);
+  min-height: 1000px;
+  font-family: 'helvetica neue';
+}
+
+h1 {
+  color: #fff;
+  padding: 10px;
+}
+
+.box {
+  background: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+  margin: 50px auto;
+}
+
+.heading {
+  background-color: #A683E3;
+  text-align: center;
+}
+
+.footer {
+  font-size: 1rem;
+  opacity: 0.75;
+  text-align: center;
+}
