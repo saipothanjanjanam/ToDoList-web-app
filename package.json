@@ -1,5 +1,5 @@
 {
-  "name": "12.1.todolist_web_app",
+  "name": "ToDoList-web-app",
   "version": "1.0.0",
   "description": "A Simple To Do List Web Application",
   "main": "app.js",
